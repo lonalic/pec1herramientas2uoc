@@ -1,27 +1,214 @@
-<!DOCTYPE html>
+<!doctype html>
 
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width">
-    <link rel="stylesheet" type="text/css" href="./assets/styles/main.scss"><!-- do not remove this line! -->
-    <title>UOC Boilerplate</title>
+    <meta name="description" content="Página de inicio de Crevillent">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=BioRhyme:wght@200..800&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="./assets/styles/main.scss">
+    <title>Crevillent</title>
   </head>
   <body>
-    <div class="uoc-container">
-      <picture>
-        <source srcset="./assets/images/logo.png?as=webp&width=350" type="image/webp" />
-        <img src="./assets/images/logo.png?width=350" alt="Universitat Oberta de Catalunya" class="uoc-logo" />
-      </picture>
-      <h1 class="uoc-title">Hello, UOC!</h1>
-      <p>
-        This is a starter template for the Advanced HTML and CSS Tools courses
-        from the Master's Program in Multimedia Applications and the Master's
-        Program in Web App and Website Development at the Universitat Oberta de
-        Catalunya.
-      </p>
-    </div>
+    <include src="./views/header.html"></include>
+    <main class="main">
+      <section class="main__section">
+        <h1 class="main__title">Todo sobre Crevillent</h1>
+        <p class="main__introduction">
+          <strong>Crevillent</strong>
+          tiene actualmente 31.191 habitantes
+          <a
+            href="https://www.ine.es/jaxiT3/Datos.htm?t=2856"
+            title="Fuente INE 2023">
+            (INE 2023)
+          </a>
+          . Es una población de la provincia de
+          <strong>Alicante</strong>
+          , en la
+          <strong>Comunidad Valenciana</strong>
+          . Los restos más antiguos tienen más de 20.000 años, aunque la
+          población actual parece ser que se remonta hasta la época ibérica. La
+          industria tuvo una gran importancia, en concreto, con la industria de
+          las alfombras, ya que llegó a exportar a
+          <strong>España</strong>
+          una gran parte de toda la producción nacional de alfombras.
+          Actualmente, la industria todavía tiene una gran importancia, ya que
+          representa un 1/3 de toda la actividad económica.
+        </p>
+      </section>
+
+      <section class="main__section">
+        <h2 class="main__headline">Fiestas</h2>
+      </section>
+
+      <section class="main__section main__section--dark">
+        <h3 class="main__subheadline">Moros y Cristianos</h3>
+        <article class="main__article">
+          <p class="main__paragraph">
+            Las fiestas de Moros y Cristianos son unas fiestas muy reconocidas a
+            nivel estatal. Se celebran en multitud de poblaciones, y en
+            <strong>Crevillent</strong>
+            también se celebran. Durantes las fiestas, se realizan desfiles que
+            representan la lucha que hubo entre los dos bandos. Existen decenas
+            de comparsas, que son las que preparan todos los desfiles. Durante
+            todo el año, también se realizan diferentes actos, incluído el "Mitg
+            Any". Las comparsas también realizan multitud de actividades
+            privadas, tanto durante las fiestas, como durante el año.
+          </p>
+          <figure class="main__image">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/moros_y_cristianos.png"
+              alt="Moros y Cristianos de Crevillent">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section class="main__section main__section--light">
+        <h3 class="main__subheadline">Semana Santa</h3>
+        <article class="main__article">
+          <p class="main__paragraph">
+            Las fiestas de
+            <strong>Semana Santa</strong>
+            son una de las fiestas más importantes en la localidad alfombrera.
+            Reunen a miles de personas, y cientos de ellos colaboran en la
+            escenificación de los diferentes pasos. Una de las principales
+            procesiones ocurre el Jueves Santo. Los pasos son llevados desde la
+            <strong>Ermita la Purísima</strong>
+            hasta el
+            <strong>Paseo del Calvario</strong>
+            . El Viernes Santo, la procesión ocurre en sentido contrario.
+          </p>
+          <figure class="main__image">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/semana-satana-recreacion-1.png"
+              alt="Semana Santa de Crevillent">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+        </article>
+      </section>
+
+      <section class="main__section">
+        <h2 class="main__headline">Parques</h2>
+      </section>
+
+      <section class="main__section main__section--dark">
+        <h3 class="main__subheadline">Hondon de Crevillent</h3>
+        <article class="main__article">
+          <figure class="main__image">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/hondon-recreacion1.png"
+              alt="Hondon de Crevillent">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <p class="main__paragraph">
+            El
+            <strong>Hondo de Crevillent</strong>
+            es un parque natural que se encuentra al sur de
+            <strong>Crevillent</strong>
+            y
+            <strong>Elx</strong>
+            . Ocupa varios miles de hectáreas y en él habitan cientos de
+            especies de aves, anfibios y reptiles. Entre ellos, también hay
+            decenas de especies protegidas. En el parque hay un centro de
+            visitantes, el cual está abierto durante la mayor parte de la
+            semana.
+          </p>
+        </article>
+      </section>
+
+      <section class="main__section main__section--light">
+        <h3 class="main__subheadline">Parque de montaña San Cayetano</h3>
+        <article class="main__article">
+          <figure class="main__image">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/sierra_parque1.png"
+              alt="Parque de montaña San Cayetano">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <p class="main__paragraph">
+            El parque de montaña
+            <strong>San Cayetano</strong>
+            es un parque natural que se sitúa en una de las zonas más altas de
+            la sierra de
+            <strong>Crevillent</strong>
+            . En este parque se puede pedir permiso para acampar, por lo que es
+            muy utilizado durante los fines de semana. Además, dispone de mesas,
+            duchas, lavabos, WC y una fuente. Desde el parque, se pueden hacer
+            muchas rutas de senderismo. Una de las más interesantes, es la que
+            puedes llegar hasta el pico de San Cayetano, que se encuentra a más
+            de 800 metros de altitud.
+          </p>
+        </article>
+      </section>
+
+      <section class="main__section">
+        <h2 class="main__headline">Galería</h2>
+        <div class="main__gallery">
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/sierra_parque2.png"
+              alt="Parque de San Cayetano imagen 2">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/moros_y_cristianos2.png"
+              alt="Moros y Cristianos imagen 2">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/hondon-recreacion2.png"
+              alt="Parque del Hondo de Crevillent imagen 2">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/sierra_parque3.png"
+              alt="Parque de San Cayetano imagen 3">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/moros_y_cristianos3.png"
+              alt="Moros y Cristianos imagen 3">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+          <figure class="main__gallery-item">
+            <img
+              width="1024"
+              height="1024"
+              src="./assets/images/hondon-recreacion3.png"
+              alt="Parque del Hondo de Crevillent imagen 3">
+            <figcaption class="main__figcaption">© Bing Dall-E 3</figcaption>
+          </figure>
+        </div>
+      </section>
+    </main>
     <include src="./views/footer.html"></include>
-    <script type="module" src="./assets/scripts/main.js"></script><!-- do not remove this line! -->
+    <script type="module" src="./assets/scripts/main.js"></script>
   </body>
 </html>

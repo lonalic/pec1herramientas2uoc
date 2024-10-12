@@ -1,12 +1,24 @@
 @use "sass:color";
 
-$font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
-  "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
-  "Segoe UI Symbol";
-$font-family-serif: "Georgia", "Times New Roman", serif;
+$font-family-lato: "Lato", "Helvetica Neue", Arial, sans-serif;
+$font-family-Biorhyme: "BioRhyme", "Times New Roman", serif;
 
-$uoc-corporate: #000078;
-$uoc-masterbrand: #73edff;
-$uoc-bg: color.scale($uoc-masterbrand, $lightness: 70%);
+$color-dark-blue: #203952;
+$color-medium-blue: #5d7791;
+$color-light-blue: #bec8d1;
+$color-dark-brown: #33240b;
+$color-medium-brown: #7c6845;
+$color-light-brown: #d1cabe;
 
-$mqMinWidth: 420px;
+$font-very-small: 0.7rem;
+$font-small: 0.9rem;
+$font-medium: 1.1rem;
+$font-large: 1.4rem;
+$font-h2: 2rem;
+$font-h1: 3rem;
+
+// Source: https://getbootstrap.com/docs/5.3/layout/breakpoints/#available-breakpoints
+$minWidthMobile: 576px;
+$minWidthTablet: 768px;
+$minWidthLargeDevice: 992px;
+$minWidthLargeDesktop: 1200px;

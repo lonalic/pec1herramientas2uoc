@@ -10,7 +10,6 @@
  * Write any other JavaScript below
  */
 
-+( function() {
-  const university = "UOC";
-  console.log(`Hello, ${university}!`);
-} )();
+;+(function () {
+  console.log(`Hola Herramientas HTML y CSS II!`)
+})()
