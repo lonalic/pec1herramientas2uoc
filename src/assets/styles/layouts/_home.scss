@@ -113,6 +113,11 @@ body {
     text-align: center;
   }
 
+  &__introduction {
+    font-size: $font-medium-extra;
+    text-align: center;
+  }
+
   &__title {
     padding-bottom: 15px;
     margin: 20px;
@@ -244,7 +249,7 @@ body {
   }
 
   &__copyright {
-    font-size: $font-very-small;
+    font-size: $font-small;
   }
 }
 
